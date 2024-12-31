@@ -50,6 +50,11 @@ sudo systemctl start pianoteq.service
 sudo systemctl stop pianoteq.service
 ```
 
+* View logs
+```bash
+sudo journalctl -t pianoteq
+```
+
 # References
 * [Pianoteq Installation on Raspberry Pi 400](https://docs.google.com/document/d/14xbI4iKRR5cKc3n-qER9-9CAdx-utPxzewIEk4NgpTE/edit?tab=t.0#heading=h.ms8il4u2nm9g): A comprehensive guide detailing the installation process and performance optimization.
 * [Pianoteq Forum: Running on Raspberry Pi](https://forum.modartt.com/viewtopic.php?id=7905): A forum discussion exploring user experiences and configurations.
