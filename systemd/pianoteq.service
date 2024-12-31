@@ -1,0 +1,10 @@
+[Unit]
+Description=Pianoteq
+
+[Service]
+Type=forking
+User=pianoteq
+LimitMEMLOCK=500000
+LimitRTPRIO=90
+ExecStart=/usr/bin/vncserver-virtual -geometry 1280x720 :10
+ExecStop=/usr/bin/vncserver-virtual -kill :10
