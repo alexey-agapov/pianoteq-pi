@@ -22,7 +22,6 @@ cd /home/pianoteq/Pianoteq\ 8\ STAGE/arm-64bit
 ## Configure `.vnc/xstartup`
 1. Copy the [`pianoteq.sh`](scripts/pianoteq.sh) script into the home directory of the `pianoteq` user.
 2. Place the [`xstartup`](scripts/xstartup) file into the `.vnc` directory under the home directory of the `pianoteq` user.
-`pianoteq` user.
 3. Check both files and make sure that the paths to the Pianoteq application and the pianoteq.sh script are correct.
 4. Make both files executable:
 ```bash
