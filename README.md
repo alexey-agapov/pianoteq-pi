@@ -40,7 +40,7 @@ sudo systemctl enable pianoteq.service
 ```
 
 # Usage
-* Start the Pianoteq Service:
+* Start the Pianoteq Service
 ```bash
 sudo systemctl start pianoteq.service
 ```
@@ -56,7 +56,12 @@ sudo journalctl -t pianoteq
 ```
 
 # References
-* [Pianoteq Installation on Raspberry Pi 400](https://docs.google.com/document/d/14xbI4iKRR5cKc3n-qER9-9CAdx-utPxzewIEk4NgpTE/edit?tab=t.0#heading=h.ms8il4u2nm9g): A comprehensive guide detailing the installation process and performance optimization.
+* [Pianoteq 6 Raspberry Pi 3 Station By Edgar Bustamante](https://www.modartt.com/data/download/gen/dl241229171235tGyzQeJ4oG/Pianoteq_RaspberryPi3_v3.pdf) a guide explaining how to install and setup Pianoteq 6 Stage in a Raspberry Pi
+3
+* [Pianoteq Installation on Raspberry Pi 400](https://docs.google.com/document/d/14xbI4iKRR5cKc3n-qER9-9CAdx-utPxzewIEk4NgpTE/edit?tab=t.0#heading=h.ms8il4u2nm9g): Another guide detailing the installation process and performance optimization, including running Pianoteq via VNC.
 * [Pianoteq Forum: Running on Raspberry Pi](https://forum.modartt.com/viewtopic.php?id=7905): A forum discussion exploring user experiences and configurations.
 * [Quick Installation and System Tweaks for Pianoteq on Raspberry Pi](https://github.com/youfou/pianoteq-pi/blob/main/setup.py?utm_source=chatgpt.com): A script to streamline the installation and optimization process.
 * [Pianoteq 7.2 Running on Raspberry Pi 4](https://youtu.be/tyIvITxxwMs): A video demonstration of Pianoteq's performance on Raspberry Pi.
+
+# See Also
+* [Mobile-friendly web app for remote controlling Pianoteq 7.5](https://forum.modartt.com/viewtopic.php?id=9073)
